@@ -182,9 +182,9 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
-
+          
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
@@ -772,7 +772,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="contact.php" method="POST" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -782,7 +782,7 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
@@ -813,7 +813,7 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <script>
+  <!-- <script>
     const sendBtn = document.querySelector('.form-btn');
 
     sendBtn.addEventListener('click', function(event) {
@@ -821,7 +821,7 @@
       alert('Terima kasih telah menghubungi, mohon menunggu balasan saya');
       this.closest('form').reset();          // clear all form fields
     });
-  </script>
+  </script> -->
 
 </body>
 
